@@ -1,0 +1,3 @@
+# Domains that are always spam
+cheap-pills.biz
+lottery-winner.net

@@ -1,0 +1,3 @@
+# Domains that are always safe
+senecapolytechnic.ca
+gmail.com

@@ -1,0 +1,21 @@
+From: news@shop-example.com
+To: student@example.com
+Subject: Weekly
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4964706760027484544=="
+
+--===============4964706760027484544==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+This week's offer: a discount on shoes.
+
+--===============4964706760027484544==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="promo.txt"
+MIME-Version: 1.0
+
+free bonus, click for cash prize money
+
+--===============4964706760027484544==--
