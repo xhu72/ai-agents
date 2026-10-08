@@ -1,0 +1,5 @@
+__pycache__/
+.pytest_cache/
+# output folders created when the spam filter runs
+spam-filter-email-agent/spam/
+spam-filter-email-agent/email/
