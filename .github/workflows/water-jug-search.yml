@@ -1,0 +1,26 @@
+name: water-jug-search
+
+on:
+  push:
+    paths:
+      - "water-jug-search/**"
+      - ".github/workflows/water-jug-search.yml"
+  pull_request:
+    paths:
+      - "water-jug-search/**"
+      - ".github/workflows/water-jug-search.yml"
+  workflow_dispatch:          # adds a "Run workflow" button in the Actions tab
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: water-jug-search
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: pytest -v
