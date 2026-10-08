@@ -1,0 +1,5 @@
+[
+  {"name": "12/8/3 jugs, measure 2",             "capacities": [12, 8, 3], "goal": 2, "expected_steps": 4},
+  {"name": "8/5/3 jugs, measure 4",              "capacities": [8, 5, 3],  "goal": 4, "expected_steps": 6},
+  {"name": "impossible: 12/6/4 jugs, measure 1", "capacities": [12, 6, 4], "goal": 1, "expected_steps": null}
+]
